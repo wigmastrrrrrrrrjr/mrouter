@@ -1,0 +1,11 @@
+name = "mrouter"
+main = "src/index.ts"
+compatibility_date = "2024-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ENVIRONMENT = "production"
+
+[[kv_namespaces]]
+binding = "MCODE_KV"
+id = "660175de013b4d04a6307741cbe8b7d7"

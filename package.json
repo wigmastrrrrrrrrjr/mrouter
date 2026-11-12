@@ -1,0 +1,15 @@
+{
+  "name": "mrouter",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240903.0",
+    "typescript": "^5.4.0",
+    "wrangler": "^3.78.0"
+  }
+}
